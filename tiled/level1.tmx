@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="1">
+ <editorsettings>
+  <export target="../src/assets/tilemaps/level1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="tileset_sf.tsx"/>
+ <tileset firstgid="511" name="tileset_sf" tilewidth="64" tileheight="64" tilecount="510" columns="30">
+  <image source="TileMap_SF/tileset_sf.png" width="1920" height="1088"/>
+ </tileset>
+ <layer id="1" name="ground" width="8" height="8">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxgAAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2AwAANQMAADoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer id="3" name="walls" width="8" height="8">
+  <properties>
+   <property name="colides" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAAAAAAAWAwAAGgMAABcDAAAcAwAAFgMAAAAAAAAAAAAAAAAAABYDAAAAAAAAAAAAAAAAAAAWAwAAAAAAAAAAAAAAAAAAFgMAABYDAAAWAwAAFgMAABYDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+</map>

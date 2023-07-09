@@ -1,0 +1,64 @@
+{ "compressionlevel":-1,
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 311, 312, 316, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
+         "id":1,
+         "name":"ground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 198, 0, 0,
+            0, 198, 284, 281, 286, 198, 0, 0,
+            0, 198, 0, 0, 0, 198, 0, 0,
+            0, 198, 198, 198, 198, 198, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0],
+         "height":8,
+         "id":3,
+         "name":"walls",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"colides",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":6,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.1",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"tileset_sf.tsx"
+        }],
+ "tilewidth":64,
+ "type":"map",
+ "version":"1.10",
+ "width":8
+}

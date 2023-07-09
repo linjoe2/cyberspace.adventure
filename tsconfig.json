@@ -3,6 +3,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "typeRoots": [
+			"node_modules/@types",
+			"node_module/phaser/types"
+		],
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -10,6 +14,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -21,7 +26,8 @@
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
-      "dom"
+      "dom",
+      "ScriptHost"
     ]
   },
   "angularCompilerOptions": {

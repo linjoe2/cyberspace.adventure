@@ -1,18 +1,23 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlocklyComponent } from './components/blockly/blockly.component';
+import { MissionComponent } from './components/mission/mission.component';
+import { PhaserComponent } from './components/phaser/phaser.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlocklyComponent,
+    MissionComponent,
+    PhaserComponent,
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [BlocklyComponent]
 })
 export class AppModule { }
